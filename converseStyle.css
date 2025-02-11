@@ -1,0 +1,51 @@
+body {
+  border: 5px black solid;
+  font-family: sans-serif;
+}
+header {
+  text-transform: uppercase;
+  background-color: rgb(235, 234, 234);
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+.priseStyle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.shippingInfoStyle {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(175, 175, 175);
+}
+
+.aboutStyle {
+  font-size: 20px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:link:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}

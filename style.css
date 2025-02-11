@@ -1,9 +1,5 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+  color: #444;
   font-family: sans-serif;
 }
 
@@ -65,4 +61,36 @@ aside {
   background: #f7f7f7;
   border-top: 5px solid #55b8bb;
   border-bottom: 5px solid #55b8bb;
+}
+/* .first-li {
+  font-weight: bold;
+} */
+
+a:link :visited {
+  color: #ff0000;
+  text-decoration: none;
+}
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+a:hover {
+  color: #db5609;
+  text-decoration: underline dotted orange;
+}
+a:active {
+  background: black;
+  font-style: italic;
+}
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green;
 }
