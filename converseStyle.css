@@ -1,21 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
+  font-family: sans-serif;
+  position: relative;
+}
+.container {
   border: 5px black solid;
   font-family: sans-serif;
+  width: 825px;
+  margin: 0 auto;
 }
 header {
   text-transform: uppercase;
   background-color: rgb(235, 234, 234);
   font-weight: bold;
   text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid black;
 }
+
 h2 {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
+  margin: 10px 10px;
 }
 .priseStyle {
   font-size: 32px;
   font-weight: bold;
+  margin: 10px 10px;
 }
 
 .shippingInfoStyle {
@@ -23,21 +38,31 @@ h2 {
   font-size: 16px;
   font-weight: bold;
   color: rgb(175, 175, 175);
+  margin-bottom: 10px;
 }
 
 .aboutStyle {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 button {
+  border: 0;
+  border-top: 5px solid black;
+  /* border-top: 5px solid black; */
+
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   background-color: black;
   color: white;
   font-size: 24px;
+  width: 100%;
+  height: 50px;
 }
 button:hover {
+  border: 0;
+  border-top: 5px solid black;
   background-color: white;
   color: black;
 }
@@ -48,4 +73,20 @@ a:link {
 a:link:hover {
   color: rgb(255, 255, 255);
   background-color: black;
+}
+ul,
+ol {
+  margin-left: 25px;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.MoreInfo {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 2px black solid;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
