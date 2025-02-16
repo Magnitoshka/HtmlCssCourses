@@ -139,13 +139,15 @@ aside {
 } */
 
 a:link :visited {
-  color: #ff0000;
+  color: #55b8bb;
   text-decoration: none;
 }
 a {
-  color: #ff0000;
+  font-weight: bold;
+  color: #55b8bb;
   text-decoration: none;
 }
+
 a:hover {
   color: #db5609;
   text-decoration: underline dotted orange;
@@ -166,4 +168,11 @@ button {
   position: absolute;
   right: 20px;
   bottom: 20px;
+}
+.author-img {
+  float: left;
+}
+
+.author {
+  padding-left: 10px;
 }
