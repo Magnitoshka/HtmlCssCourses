@@ -20,29 +20,31 @@
         </nav>
       </header>
 
+      <divc class="row">
       <article>
-        <header class="post-header"
-        height="50"
-        width="50">
+        <header class="post-header" height="50" width="50">
           <h2>The Basic Language of the Web: HTML</h2>
+          <div class="author-box">
+            <img
+              class="author-img"
+              alt="laura"
+              src="./content/laura-jones.jpg"
+              style="height: 64px"
+              title="Laura Jones"
+            />
 
-          <img
-            class="author-img"
-            alt="laura"
-            src="./content/laura-jones.jpg"
-            style="height: 64px"
-            title="Laura Jones"
-          />
-
-          <p class="author">
-            Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027
-          </p>
-
+            <p class="author">
+              Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027
+            </p>
+          </div>
           <img
             class="post-img"
             src="../main/content/post-img.jpg"
             alt="Laura Post code"
-          
+          />
+
+
+        
         </header>
         <p>
           All modern websites and web applications are built using three
@@ -114,35 +116,43 @@
       <aside>
         <h4>Related posts</h4>
         <ul class="related">
-          <li>
+          <li class="related-post">
             <img
               src="content/related-1.jpg"
               alt="related1"
               style="height: 64px"
             />
-            <a href="#">How to learn Web Dewelopnment</a>
+            <div>
+              <a href="#" class="related-link">How to learn Web Dewelopnment</a>
+
+              <p class="related-author">By Jonas Schmedtmann</p>
+            </div>
           </li>
-          <p class="related-author">By Jonas Schmedtmann</p>
-          <li>
+          <li class="related-post">
             <img
               src="content/related-2.jpg"
               alt="related2"
               style="height: 64px"
             />
-            <a href="#">The unknown Power of CSS</a>
+            <div>
+              <a href="#" class="related-link">The unknown Power of CSS</a>
+              <p class="related-author">By Jim Dillon</p>
+            </div>
           </li>
-          <p class="related-author">By Jim Dillon</p>
-          <li>
+          <li class="related-post">
             <img
               src="content/related-3.jpg"
               alt="related3"
               style="height: 64px"
             />
-            <a href="#">Why JavaScript is Awesome</a>
+            <div>
+              <a href="#" class="related-link">Why JavaScript is Awesome</a>
+              <p class="related-author">By Matilda</p>
+            </div>
           </li>
-          <p class="related-author">By Matilda</p>
         </ul>
       </aside>
+    </div>
       <footer>
         <p>
           <b>
@@ -151,7 +161,7 @@
           </b>
         </p>
       </footer>
-    </div>
+    </divc>
     /><button>Like❤️</button>
   </body>
 </html>
